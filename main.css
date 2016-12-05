@@ -1,0 +1,122 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+
+
+html,body {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}
+input{
+    border:1px solid #b0b0b0;
+    padding:3px 5px 4px;
+    color:#979797;
+    width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+/* End CSS Reset */
+
+/* Body Width*/
+body{
+    width: 1024px;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    z-index: 1;
+
+}
+
+
+
+/*----------------------------
+      Drop down NAV
+-----------------------------*/
+
+.MainMenu {
+    text-align: center;
+    position: relative;
+    top: -5px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.MainMenu .link {
+    display: inline-block;
+}
+
+.MainMenu a{
+    display: inline-block;
+    padding: 10px;
+    margin: -2px; 
+    text-decoration: none;
+    color: cadetblue;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    position: relative;
+}
+
+li ul {
+    display: none;
+    position: absolute; 
+    top: 41px;
+    left: -1px;
+    background-color: white;
+    z-index: 2;
+    padding: 0px 20px;
+}
+
+
+li:hover ul{
+display: block;
+}
+
+
+/* End Nav*/
+
+
+.topimg{
+    max-width: 1024px;
+    max-height: 664px;
+    padding: 0px;
+    margin: 0px;
+}
+.intromoana {
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    top: 100px;  
+}
+
+iframe {
+    
+}
